@@ -21,7 +21,7 @@ Rigidbody2D myrig;
 		if (Input.GetKeyUp(KeyCode.Mouse0))
 		{
 			GameObject nuevodisparo = Instantiate(bulletpref,gunPos.transform.position,Quaternion.identity);
-			nuevodisparo.GetComponent<Rigidbody2D>().velocity=direccion*velocidadBala;
+			//nuevodisparo.GetComponent<Rigidbody2D>().velocity=direccion*velocidadBala;
 			
 		}
 		
